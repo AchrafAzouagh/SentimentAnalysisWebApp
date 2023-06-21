@@ -1,0 +1,5 @@
+altair
+cleantext
+pandas
+textblob
+vaderSentiment
