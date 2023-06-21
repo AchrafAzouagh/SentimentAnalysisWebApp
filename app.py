@@ -35,7 +35,7 @@ def analyze_token_sentiment(docx):
 
 
 def main():
-    st.title("Sentiment Analysis NLP App")
+    st.title("EmoMeter: Unveiling the Emotions within Text")
     st.subheader("Streamlit Projects")
 
     menu = ["Home", "About"]
@@ -46,10 +46,6 @@ def main():
         with st.form(key='nlpForm'):
             raw_text = st.text_area("Enter Text Here")
             submit_button = st.form_submit_button(label='Analyze')
-            pre = st.text_input('Clean Text: ')
-            if pre:
-                st.write(cleantext.clean(pre, clean_all=False, extra_spaces=True,
-                                         stopwords=True, lowercase=True, numbers=True, punct=True))
 
         # layout
         col1, col2 = st.columns(2)
