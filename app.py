@@ -36,7 +36,7 @@ def analyze_token_sentiment(docx):
 
 def main():
     st.title("EmoMeter: Unveiling the Emotions within Text")
-    st.subheader("Streamlit Projects")
+    st.subheader("Unleash the Power of Sentiment Analysis for Deeper Insights and Better Decision-Making")
 
     menu = ["Home", "About"]
     choice = st.sidebar.selectbox("Menu", menu)
